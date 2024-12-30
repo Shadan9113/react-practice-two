@@ -1,0 +1,111 @@
+/* General body styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #e0eafc, #cfdef3);
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+  }
+  
+  /* Header Styling */
+  header {
+    background-color: #3a86ff;
+    color: #fff;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  header p {
+    margin: 10px 0;
+    font-size: 1.2rem;
+  }
+  
+  header button {
+    background-color: #ff006e;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  header button:hover {
+    background-color: #d9005a;
+    transform: scale(1.05);
+  }
+  
+  /* Dashboard Styling */
+  .dashboard-container {
+    background: #fff;
+    width: 90%;
+    max-width: 600px;
+    margin-top: 20px;
+    padding: 30px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    text-align: center;
+  }
+  
+  .dashboard-container h2 {
+    color: #3a86ff;
+    margin-bottom: 15px;
+    font-size: 2rem;
+  }
+  
+  .dashboard-container p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  /* Login Button */
+  .dashboard-container button {
+    background-color: #3a86ff;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .dashboard-container button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    header h1 {
+      font-size: 2rem;
+    }
+  
+    .dashboard-container {
+      padding: 20px;
+    }
+  
+    header button, .dashboard-container button {
+      font-size: 0.9rem;
+      padding: 10px 20px;
+    }
+  }
+  
